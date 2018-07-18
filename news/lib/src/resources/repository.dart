@@ -23,7 +23,7 @@ class Repository {
     ItemModel item;
     Source source;
 
-    for(source in sources) {
+    for (source in sources) {
       item = await source.fetchItem(id);
       if (item != null) {
         break;
