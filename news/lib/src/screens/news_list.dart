@@ -6,7 +6,7 @@ class NewsList extends StatelessWidget {
       appBar: AppBar(
         title: Text('Top News'),
       ),
-      body: Text('Show some list here'),
+      body: Text('hrjo'),
     );
   }
 }
